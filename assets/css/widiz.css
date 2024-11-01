@@ -1,0 +1,161 @@
+.widiz-form{
+
+}
+
+.widiz-form p.error select, .widiz-form p.error input{
+    border-color: #f00;
+}
+
+.widiz-error{
+    color: #f00;
+    font-size: 14px;
+}
+
+.widiz-alert{
+    margin: 2em 0.5em 1em;
+    padding: 0.2em 1em;
+}
+
+.widiz-alert-ok {
+    border: 2px solid #398f14;
+}
+
+.widiz-alert-ng {
+    border: 2px solid #ff0000;
+}
+
+.widiz-alert-blocked {
+    border: 2px solid #ffa500;
+}
+
+.widiz-alert-errors {
+    border: 2px solid #f7e700;
+}
+
+.widiz_loader {
+    width:78px;
+    height:49px;
+}
+
+.widiz_loader span {
+    display: inline-block;
+    vertical-align: middle;
+    width: 10px;
+    height: 10px;
+    margin: 24px auto;
+    background: rgb(0,0,0);
+    border-radius: 49px;
+        -o-border-radius: 49px;
+        -ms-border-radius: 49px;
+        -webkit-border-radius: 49px;
+        -moz-border-radius: 49px;
+    animation: widizLoader 1.5s infinite alternate;
+        -o-animation: widizLoader 1.5s infinite alternate;
+        -ms-animation: widizLoader 1.5s infinite alternate;
+        -webkit-animation: widizLoader 1.5s infinite alternate;
+        -moz-animation: widizLoader 1.5s infinite alternate;
+}
+
+.widiz_loader .widiz_loader_1 {
+    animation-delay: 0s;
+        -o-animation-delay: 0s;
+        -ms-animation-delay: 0s;
+        -webkit-animation-delay: 0s;
+        -moz-animation-delay: 0s;
+}
+
+.widiz_loader .widiz_loader_2 {
+    animation-delay: 0.45s;
+        -o-animation-delay: 0.45s;
+        -ms-animation-delay: 0.45s;
+        -webkit-animation-delay: 0.45s;
+        -moz-animation-delay: 0.45s;
+}
+
+.widiz_loader .widiz_loader_3 {
+    animation-delay: 0.9s;
+        -o-animation-delay: 0.9s;
+        -ms-animation-delay: 0.9s;
+        -webkit-animation-delay: 0.9s;
+        -moz-animation-delay: 0.9s;
+}
+
+@keyframes widizLoader {
+    0% {
+        width: 10px;
+        height: 10px;
+        background-color:rgb(0,0,0);
+        transform: translateY(0);
+    }
+
+    100% {
+        width: 23px;
+        height: 23px;
+        background-color:rgb(255,255,255);
+        transform: translateY(-20px);
+    }
+}
+
+@-o-keyframes widizLoader {
+    0% {
+        width: 10px;
+        height: 10px;
+        background-color:rgb(0,0,0);
+        -o-transform: translateY(0);
+    }
+
+    100% {
+        width: 23px;
+        height: 23px;
+        background-color:rgb(255,255,255);
+        -o-transform: translateY(-20px);
+    }
+}
+
+@-ms-keyframes widizLoader {
+    0% {
+        width: 10px;
+        height: 10px;
+        background-color:rgb(0,0,0);
+        -ms-transform: translateY(0);
+    }
+
+    100% {
+        width: 23px;
+        height: 23px;
+        background-color:rgb(255,255,255);
+        -ms-transform: translateY(-20px);
+    }
+}
+
+@-webkit-keyframes widizLoader {
+    0% {
+        width: 10px;
+        height: 10px;
+        background-color:rgb(0,0,0);
+        -webkit-transform: translateY(0);
+    }
+
+    100% {
+        width: 23px;
+        height: 23px;
+        background-color:rgb(255,255,255);
+        -webkit-transform: translateY(-20px);
+    }
+}
+
+@-moz-keyframes widizLoader {
+    0% {
+        width: 10px;
+        height: 10px;
+        background-color:rgb(0,0,0);
+        -moz-transform: translateY(0);
+    }
+
+    100% {
+        width: 23px;
+        height: 23px;
+        background-color:rgb(255,255,255);
+        -moz-transform: translateY(-20px);
+    }
+}

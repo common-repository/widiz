@@ -1,0 +1,70 @@
+/* This stylesheet is used to style the admin option form of the plugin. */
+
+
+/* ---------------------------------------------------------- */
+
+.section-title-wrapper {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 12px;
+    margin: 0;
+    line-height: 1.4;
+    border-bottom: 1px solid #eee;
+}
+
+label {
+    display: block;
+}
+
+fieldset {
+    padding: 4px 9px 7px 9px;
+    border: 1px solid #eee;
+    margin-bottom: 10px;
+}
+
+fieldset:last-child {
+    margin-bottom: 0px;
+}
+
+.repeatable-block:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.repeatable-item.repeatable-item-cf7_widiz_field_id, .repeatable-item.repeatable-item-cf7_cf7_field, .repeatable-item.repeatable-item-cf7_default_value{
+    display: block;
+    float: left;
+    width: 33.333333332%;
+    padding: 0 8px;
+    box-sizing: border-box;
+}
+
+.repeatable-item.repeatable-item-custom_widiz_field_id, .repeatable-item.repeatable-item-custom_default_value, .repeatable-item-custom_field_name, .repeatable-item-custom_field_type{
+    display: block;
+    float: left;
+    width: 25%;
+    padding: 0 8px;
+    box-sizing: border-box;
+}
+
+.repeatable-item p, .repeatable-item label, .repeatable-item p input, .repeatable-item p select, .repeatable-item p textarea{
+    max-width: 100%;
+}
+
+.repeatable-item p br{
+    display: none!important;
+}
+
+#widiz_api_token, #widiz_api_key{
+    min-width: 300px;
+    max-width: 100%;
+}
+
+.widiz-success{
+    color: #0F0;
+}
+
+.widiz-error{
+    color: #F00;
+}
